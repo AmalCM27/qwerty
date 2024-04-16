@@ -1,0 +1,22 @@
+.slideShow {
+	max-width: 700px;
+	width: 45%;
+	margin: 20px auto;
+}
+.slide__list {
+	margin: 2px 0;
+  display: flex;
+
+}
+.slide__item {
+	width: 25%;
+	padding: 1px;
+	position: relative;
+    display: block;
+    float: left;
+  border: 1px solid transparent;
+}
+
+.slide__item:hover {
+  border: 1px solid #333;
+}
